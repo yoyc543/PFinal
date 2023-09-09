@@ -2,19 +2,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package gestor_citas_medicas;
+package citasreserva;
 
 /**
  *
- * @author christian
+ * @author PC01
  */
-public class Gestor_Citas_Medicas {
+public class CitasReserva {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("hello word");
+   
+//        System.out.println("hello word");
     Especialidad especialidad1 = new Especialidad(1,"Cardiologia");
     Medico medico1= new Medico(1,especialidad1, "cedula1", "Luis", 
             "Rojas", 54697812, "Masculino", 978375159, "S/N");
@@ -40,18 +41,10 @@ public class Gestor_Citas_Medicas {
 //        System.out.println(paciente1.mostrarSexo());
 //        System.out.println(paciente1.mostrarCelular());
 //        System.out.println(paciente1.mostrarDireccion());
-
-
-
-//System.out.println(paciente1.mostrarDireccion());
-
-//System.out.println(paciente1.mostrarDireccion());
-
-//System.out.println(paciente1.mostrarDireccion());
         
         
         System.out.println( medico1.toString());
     }
+    }
     
-    
-}
+

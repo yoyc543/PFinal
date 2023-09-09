@@ -40,6 +40,10 @@ public class Gestor_Citas_Medicas {
 //        System.out.println(paciente1.mostrarSexo());
 //        System.out.println(paciente1.mostrarCelular());
 //        System.out.println(paciente1.mostrarDireccion());
+
+
+
+//System.out.println(paciente1.mostrarDireccion());
         
         
         System.out.println( medico1.toString());
